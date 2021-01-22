@@ -12,7 +12,7 @@ namespace Ornek2
             int sayi = Convert.ToInt32(Console.ReadLine());
             ArrayList carpan = new ArrayList();
             int temp = sayi;           
-            for (int i = 2; i < sayi; i++)
+            for (int i = 2; i < sayi;)
             {
                 if (temp % i == 0)
                 {
@@ -21,6 +21,10 @@ namespace Ornek2
                     {
                         carpan.Add(i);
                     }                   
+                }
+                else
+                {
+                    i++;
                 }
             }
             int toplam = 0;
@@ -33,7 +37,7 @@ namespace Ornek2
                 }
                 toplam += faktoriyel;
             }
-            Console.WriteLine("Asal çarpanlarının faktoriyel toplamı: {0}",toplam);
+            Console.WriteLine("Asal çarpanlarının faktoriyel toplamı: {0}",toplam);          
         }
     }
 }
