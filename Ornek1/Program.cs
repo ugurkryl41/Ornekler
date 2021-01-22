@@ -14,7 +14,7 @@ namespace Ornek1
             sayi -= yuzler * 100;
             int onlar = sayi / 10;
             sayi -= onlar * 10;
-            int birler = sayi / 1;
+            int birler = sayi;
 
             Console.WriteLine("Yuzler: {0} , Onlar: {1} , Birler: {2}",yuzler,onlar,birler);
         }
