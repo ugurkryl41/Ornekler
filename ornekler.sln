@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ornek1", "Ornek1\Ornek1.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ornek2", "Ornek2\Ornek2.csproj", "{539E076A-2183-475C-973E-7ABCC2426DB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek3", "Ornek3\Ornek3.csproj", "{1E1201E1-0906-481B-BEFF-7FB0BE6E81E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ornek3", "Ornek3\Ornek3.csproj", "{1E1201E1-0906-481B-BEFF-7FB0BE6E81E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek4", "Ornek4\Ornek4.csproj", "{C9428D3A-D422-4B07-9CA8-0C7E7FF5F90A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1E1201E1-0906-481B-BEFF-7FB0BE6E81E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E1201E1-0906-481B-BEFF-7FB0BE6E81E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E1201E1-0906-481B-BEFF-7FB0BE6E81E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9428D3A-D422-4B07-9CA8-0C7E7FF5F90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9428D3A-D422-4B07-9CA8-0C7E7FF5F90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9428D3A-D422-4B07-9CA8-0C7E7FF5F90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9428D3A-D422-4B07-9CA8-0C7E7FF5F90A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
