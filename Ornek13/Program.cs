@@ -4,7 +4,7 @@ namespace Ornek13
 {
     class Program
     {
-        /* Girilen kelimenin sesli harf kontrolu */
+        /* Girilen kelimenin sesli harf kontrolu 0 tane sesli veya hepsi sesli harf ise tekrar kelime isteyen kod. */
         static void Main(string[] args)
         {
             Console.WriteLine("Kelime girin: ");
