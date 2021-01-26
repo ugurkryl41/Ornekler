@@ -4,6 +4,7 @@ namespace Ornek13
 {
     class Program
     {
+        /* Girilen kelimenin sesli harf kontrolu */
         static void Main(string[] args)
         {
             Console.WriteLine("Kelime girin: ");
